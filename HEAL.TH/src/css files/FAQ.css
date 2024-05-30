@@ -1,0 +1,33 @@
+
+.lahat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px; 
+    width: 100%;
+    height: 100vh;
+}
+
+.taas {
+    font-size: 40px;
+    margin-bottom: 20px; 
+}
+
+.una, .pangalawa {
+    width: 70%; 
+    margin-bottom: 20px;
+}
+
+.una h1, 
+.pangalawa h1 {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.una p, 
+.pangalawa p {
+    margin-top: 10px; 
+}

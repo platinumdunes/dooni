@@ -1,0 +1,246 @@
+.sectionOne {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.greenCity {
+    position: absolute;
+    width: 100%;
+    height: 660px;
+    top: 0;
+    filter: blur(1px) brightness(90%);
+    z-index: 0;
+}
+
+.texts {
+    position: absolute;
+    z-index: 1;
+}
+
+.sectionOneHeading, 
+.sectionTwoHeading,
+.sectionThreeHeading,
+.sectionFourHeading {
+    color: white !important;
+    font-size: 75px !important;
+    position: absolute;
+    top: -100px; 
+    left:-430px;
+}
+
+.locationParag {
+    color: white !important;
+    font-size: 20px !important;
+    position: absolute;
+    top: 150px;
+    left: -420px;
+}
+
+.ButtonWrapper {
+    position: relative;
+    margin-left: 95px;
+    margin-top: 250px;
+}
+
+.doctorListBtn,
+.emergencyHotlineBtn,
+.ambulanceBtn {
+    display: block;
+    margin-top: 25px;
+    width: 250px !important;
+}
+
+/* SECTION 2 PMSH */
+.sectionTwo {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.pmsPic {
+    position: absolute;
+    width: 100%;
+    height: 660px;
+    top: 0;
+    filter: blur(3px) brightness(80%);
+    z-index: 0;
+}
+
+.sectionTwoHeading {
+    margin-right: 10px;
+}
+
+.headingHospitalWord {
+    margin-left: 800px;
+}
+
+.locationParagSection2 {
+    color: white !important;
+    font-size: 20px !important;
+    position: absolute;
+    top: 235px;
+    left: -100px;
+}
+
+.sectionTwoButtons {
+    position: relative;
+    margin-left: 1030px;
+    margin-top: 350px;
+}
+
+/* Section 3 */
+.sectionThree {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}       
+
+.rosarioPic {
+    position: absolute;
+    width: 100%;
+    height: 660px;
+    top: 0;
+    filter: blur(3px) brightness(80%);
+    z-index: 0;
+}
+
+.sectionThreeHeading {
+    margin-right: 10px;
+}
+
+.locationParagSection3 {
+    color: white !important;
+    font-size: 20px !important;
+    position: absolute;
+    top: 150px;
+    left: -420px;
+}
+
+.sectionThreeButtons {
+    position: relative;
+    margin-left: 95px;
+    margin-top: 280px;
+}
+
+/* Section 4 */
+.sectionFour {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.diosdadoPic {
+    position: absolute;
+    width: 100%;
+    height: 660px;
+    top: 0;
+    filter: blur(3px) brightness(80%);
+    z-index: 0;
+}
+
+.sectionFourHeading {
+    /* margin-right: -80px; */
+    margin-right: 5px;
+}
+
+.headingHospitalWordDiosdado {
+    margin-left: 400px;
+}
+
+.locationParagSection4 {
+    color: white !important;
+    font-size: 20px !important;
+    position: absolute;
+    top: 235px;
+    left: -100px;
+}
+
+.sectionFourButtons {
+    position: relative;
+    margin-left: 1030px;
+    margin-top: 350px;
+}
+
+
+/* BUTTONS */
+.GreencityPopupContainer, 
+.pmshPopupContainer,
+.rosarioPopupContainer,
+.diosdadoPopupContainer,
+.GreencityAmbulanceContainer,
+.pmshAmbulanceContainer,
+.rosarioAmbulanceContainer,
+.diosdadoAmbulanceContainer {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 50vh;
+    border: 4px solid #627254;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.greencityPopUp {
+    position: absolute;
+    top: 50%;
+    left: 250%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.pmshPopUp,
+.pmshAmbulanceContainer {
+    position: absolute;
+    top: 10%;
+    left: -110%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.rosarioPopUp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.diosdadoPopUp {
+    position: absolute;
+    top: 10%;
+    left: -110%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.closeBtn {
+    position: relative;
+    bottom: 270px;
+    left: 350px;
+}
+
+.emergencyHotlineBtn:hover,
+.ambulanceBtn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.emergencyHotlineBtn:active,
+.emergencyHotlineBtn.active{
+    background-color: #fff; 
+    color: #000; 
+}
+
+.ambulanceBtn:active,
+.ambulanceBtn.active {
+    background-color: #fff;
+    color: #000; 
+}

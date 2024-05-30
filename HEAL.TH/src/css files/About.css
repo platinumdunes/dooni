@@ -1,0 +1,83 @@
+.missionVisionSection {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.missionSection, 
+.visionSection {
+  height: 200px;
+  width: 700px;
+  margin: 10px;
+  border-radius: 7px;
+  border: 4px solid #76885B;
+  padding: 6px;
+  text-align: center;
+}
+
+.missionSection h1, 
+.visionSection h1,
+.missionSection p,
+.visionSection p {
+  color: #fff;
+}
+
+.missionH1, 
+.visionH1 {
+  font-weight: bold;
+}
+
+.aboutUsH1 {
+  color: #627254;
+  font-weight: bold;
+  margin-top: -70px;
+  margin-bottom: 20px;
+}
+
+/* PAUL */
+
+.aboutDevsSection {
+  text-align: center;
+}
+
+.aboutDevsSection h1 {
+  font-size: 30px;
+  font: normal;
+}
+
+.aboutDevsSection p {
+  font-size: 30px;
+  font: normal;
+}
+
+.headingDevSec {
+  margin-bottom: 5px;
+}
+
+.allDevsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person-container {
+  margin-bottom: 20px;
+  width: 70%;
+  background-color: #627254;
+  border-radius: 80px; 
+  overflow: hidden; 
+  box-shadow: 0 0 10px rgba(50, 6, 245, 0.1); 
+  position: relative; 
+}
+
+.pics {
+  position: absolute; 
+  top: 7px; 
+  left: 10px;  
+  width: 120px; 
+  height: 120px; 
+  border-radius: 50%; 
+}

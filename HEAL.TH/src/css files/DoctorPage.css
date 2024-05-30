@@ -1,0 +1,156 @@
+#parentContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#leftContainer {
+  width: 25%; /* 1/4 of the parent container */
+  display: flex;
+}
+
+#rightContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 75%; /* Remaining width */
+  /* Add any styles for the right container */
+}
+
+#profileImage {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  bottom: 100px;
+  left: 70px;
+}
+
+#doctor-name-docPage {
+  position: relative;
+  bottom: 90px;
+  left: 70px;
+}
+
+#specialization-docPage {
+  position: relative;
+  bottom: 90px;
+  left: 70px;
+}
+
+#clinicHoursP-docPage, 
+#contactP, 
+#input-docPage {
+  position: relative;
+  right: 550px;
+}
+
+#clinicHoursP-docPage {
+  top: -70px;
+}
+
+#contactP {
+  top: -10px;
+}
+
+#input-docPage {
+  position: relative;
+  width: 420px;
+  height: 40px;
+  background-color: grey;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  border-radius: 3px;
+}
+
+.smsContainer-docPage button, 
+.emailContainer-docPage button {
+  display: flex;
+  width: 200px !important;
+  height: 40px;
+  margin: 20px;
+}
+
+#smsBtn-docPage {
+  position: relative;
+  top: -10px;
+  right: 550px;
+}
+
+.emailBtn {
+  position: relative;
+  bottom: 70px;
+  right: 330px;
+}
+
+.smsContainer-docPage,
+.emailContainer-docPage {
+  background-color: #535353;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 55vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.smsPopUp-docPage,
+.emailPopUp-docPage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+#closeButton {
+  position: relative;
+  bottom: 55px;
+  left: 320px;
+}
+
+#cfHeader-docPage {
+  position: relative;
+  bottom: 120px;
+}
+
+.appointmentDiv {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  bottom: 120px;
+}
+
+.messageInput {
+  position: absolute;
+  width: 400px;
+  height: 180px !important;
+  text-align: center;
+  bottom: 60px;
+}
+
+.btnsContainer {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: 70px;
+}
+
+.btnsContainer button {
+  background-color: #493F3E;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center !important;
+  padding-top: 6px;
+}
+
+.AttchBtn {
+  padding-left: 17px;
+}
+
+.sendBtn {
+  padding-left: 75px;
+}

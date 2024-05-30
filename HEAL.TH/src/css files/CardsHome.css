@@ -1,0 +1,49 @@
+.slider-container {
+  max-width: 1010px; 
+  margin: 0 auto; 
+  margin-top: 20px;
+  position: relative;
+}
+  
+.card-slider {
+  display: flex;
+  overflow-x: hidden;
+}
+  
+.slide {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+  
+.card {
+  flex: 0 0 30%;
+  margin: 0 5px;
+}
+  
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
+  
+.prev {
+  left: 0;
+  margin-left: 5px;
+}
+  
+.next {
+  right: 0;
+}
+
+#nextButton {
+  width: 50px !important;
+}
+
+#prevButton {
+  width: 50px !important;
+}
